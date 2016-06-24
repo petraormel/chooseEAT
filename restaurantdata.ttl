@@ -1,0 +1,135 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix chooseeat: <http://chooseeat.org/vocabulary/> .
+@prefix schema: <http://schema.org/> .
+
+<https://chooseeat.org/restaurant/1> a schema:Restaurant;
+		chooseeat:hasRecipe <https://chooseeat.org/recipe1> ;
+		chooseeat:hasRecipe <https://chooseeat.org/recipe2> ;
+		chooseeat:hasRecipe <https://chooseeat.org/recipe3> ;
+		chooseeat:hasRecipe <https://chooseeat.org/recipe4> ;
+		chooseeat:hasRecipe <https://chooseeat.org/recipe5> .
+
+<https://chooseeat.org/recipe1> a schema:Recipe;
+		chooseeat:recipeName "shrimp and chicken rumbo" ;
+		schema:recipeIngredient "canola oil" ;
+		schema:recipeIngredient "chicken" ;
+		schema:recipeIngredient "onion" ;
+		schema:recipeIngredient "chile" ;
+		schema:recipeIngredient "celery" ;
+		schema:recipeIngredient "garlic" ;
+		schema:recipeIngredient "dry white wine" ;
+		schema:recipeIngredient "red pepper" ;
+		schema:recipeIngredient "kosher salt" ;
+		schema:recipeIngredient "tomatoes" ;
+		schema:recipeIngredient "shrimp" ;
+		schema:recipeIngredient "red wine vinegar" ;
+		schema:recipeIngredient "black pepper" ;
+		schema:recipeIngredient "brown rice" ;
+		schema:calories "430" ;
+		schema:cholesterolContent "94" ;
+		schema:fatContent "15" ;
+		schema:saturatedFatContent "1.3" ;
+		schema:unsaturatedFatContent "13.7" ;
+		schema:sodiumContent "558" ;
+		schema:proteinContent "23" ;
+		schema:fibreContent "5" ;
+		schema:calciumContent "102" .
+
+<https://chooseeat.org/recipe2> a schema:Recipe;
+		chooseeat:recipeName "company pot roast" ;
+		schema:recipeIngredient "beef" ;
+		schema:recipeIngredient "lower sodium soy sause" ;
+		schema:recipeIngredient "garlic" ;
+		schema:recipeIngredient "dried morels" ;
+		schema:recipeIngredient "black pepper" ;
+		schema:recipeIngredient "sun-dried tomato paste" ;
+		schema:recipeIngredient "onion" ;
+		schema:recipeIngredient "carrot" ;
+		schema:recipeIngredient "potatoes" ;
+		schema:recipeIngredient "canola oil" ;
+		schema:calories "318" ;
+		schema:cholesterolContent "40" ;
+		schema:fatContent "6.8" ;
+		schema:saturatedFatContent "1.6" ;
+		schema:unsaturatedFatContent "5.2" ;
+		schema:sodiumContent "552" ;
+		schema:proteinContent "30.5" ;
+		schema:fibreContent "5.2" ;
+		schema:calciumContent "70" .
+
+<https://chooseeat.org/recipe3> a schema:Recipe;
+		chooseeat:recipeName "roasted moroccan spiced grapes" ;
+		schema:recipeIngredient "onion" ;
+		schema:recipeIngredient "carrot" ;
+		schema:recipeIngredient "olive oil" ;
+		schema:recipeIngredient "kosher salt" ;
+		schema:recipeIngredient "black pepper" ;
+		schema:recipeIngredient "cumin" ;
+		schema:recipeIngredient "coriander" ;
+		schema:recipeIngredient "cinnamon" ;
+		schema:recipeIngredient "red pepper" ;
+		schema:recipeIngredient "chicken" ;
+		schema:recipeIngredient "grapefruit" ;
+		schema:recipeIngredient "olives" ;
+		schema:recipeIngredient "parsley" ;
+		schema:calories "406" ;
+		schema:cholesterolContent "79" ;
+		schema:fatContent "23.3" ;
+		schema:saturatedFatContent "5.4" ;
+		schema:unsaturatedFatContent "16.7" ;
+		schema:sodiumContent "661" ;
+		schema:proteinContent "18.6" ;
+		schema:fibreContent "4.2" ;
+		schema:calciumContent "68" .
+
+<https://chooseeat.org/recipe4> a schema:Recipe;
+		chooseeat:recipeName "hoppin john" ;
+		schema:recipeIngredient "black-eyes peas" ;
+		schema:recipeIngredient "green onions" ;
+		schema:recipeIngredient "jalapeno" ;
+		schema:recipeIngredient "salt" ;
+		schema:recipeIngredient "black pepper" ;
+		schema:recipeIngredient "chicken-flavored bouillon cube" ;
+		schema:recipeIngredient "tomatoes" ;
+		schema:recipeIngredient "rice" ;
+		schema:calories "349" ;
+		schema:cholesterolContent "79" ;
+		schema:fatContent "1.5" ;
+		schema:saturatedFatContent "0.5" ;
+		schema:unsaturatedFatContent "1" ;
+		schema:sodiumContent "632" ;
+		schema:proteinContent "17.6" ;
+		schema:fibreContent "11.8" ;
+		schema:calciumContent "87" .
+
+<https://chooseeat.org/recipe5> a schema:Recipe ;
+		chooseeat:recipeName "spicy thai coconut chicken soup" ;
+		schema:recipeIngredient "canola oil" ;
+		schema:recipeIngredient "mushrooms" ;
+		schema:recipeIngredient "red bell pepper" ;
+		schema:recipeIngredient "ginger" ;
+		schema:recipeIngredient "garlic" ;
+		schema:recipeIngredient "lemon grass" ;
+		schema:recipeIngredient "sambal oelek" ;
+		schema:recipeIngredient "chicken" ;
+		schema:recipeIngredient "coconult milk" ;
+		schema:recipeIngredient "sugar" ;
+		schema:recipeIngredient "onion" ;
+		schema:calories "224" ;
+		schema:cholesterolContent "58" ;
+		schema:fatContent "9" ;
+		schema:saturatedFatContent "4.5" ;
+		schema:unsaturatedFatContent "3.7" ;
+		schema:sodiumContent "463" ;
+		schema:proteinContent "22.7" ;
+		schema:fibreContent "1.1" ;
+		schema:calciumContent "35" .
+
